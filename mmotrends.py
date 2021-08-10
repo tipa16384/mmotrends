@@ -2,6 +2,7 @@
 
 from pytrends.request import TrendReq
 from time import time, sleep
+from random import random, randint
 
 # name of the file containing our MMO names
 namefile = 'names.txt'
@@ -19,7 +20,8 @@ mmocat = 935
 
 # Time in seconds to wait before asking Google Trends for something.
 # Otherwise, we run out of quota.
-requestSpacing = 60
+spacingDuration = 60
+requestSpacing = 0
 lastCallTime = 0
 
 # timeframe -- last three months
@@ -74,24 +76,30 @@ def compareInterestOverTime(gamea, gameb):
     games as equal. The error seems to be if one game name is blank, or we have overrun
     our quota and Google Trends is through with us for a minute.
     """
-    global lastCallTime
+    global lastCallTime, requestSpacing, spacingDuration
     try:
         now = time()
         waittime = now - lastCallTime
         lastCallTime = now
         if waittime < requestSpacing:
             interval = requestSpacing - waittime + 1
-            print ('Sleeping for {} seconds'.format(interval))
+            print ('Games={}, {} -- Sleeping for {} seconds'.format(gamea, gameb, interval))
             sleep(interval)
+            if random() > 0.95:
+                print ('Dropping the sleep and taking our chances')
+                requestSpacing = 0
 
         pytrends.build_payload([gamea, gameb], cat=mmocat, timeframe=timeframe, geo='', gprop='')
         data = pytrends.interest_over_time()
         gameAInterest = gaugeInterest(data[gamea]) if gamea in data else 0
         gameBInterest = gaugeInterest(data[gameb]) if gameb in data else 0
         return gameBInterest - gameAInterest
-    except:
-        print ('Died with error games {}, {}'.format(gamea, gameb))
-        return 0
+    except Exception as err:
+        print ('Error was {}'.format(err))
+        requestSpacing = spacingDuration
+        print ('Died with error. Games are {}, {}. Spacing set to {}'.format(gamea, gameb, requestSpacing))
+        sleep(requestSpacing)
+        return compareInterestOverTime(gamea, gameb)
 
 def sortGames():
     'Sort the game list by relative interest'
