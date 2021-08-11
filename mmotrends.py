@@ -21,7 +21,7 @@ mmocat = 935
 # Time in seconds to wait before asking Google Trends for something.
 # Otherwise, we run out of quota.
 spacingDuration = 60
-requestSpacing = 0
+requestSpacing = 2
 lastCallTime = 0
 
 # timeframe -- last three months
@@ -85,7 +85,7 @@ def compareInterestOverTime(gamea, gameb):
             interval = requestSpacing - waittime + 1
             print ('Games={}, {} -- Sleeping for {} seconds'.format(gamea, gameb, interval))
             sleep(interval)
-            if random() > 0.95:
+            if False or (random() > 0.95):
                 print ('Dropping the sleep and taking our chances')
                 requestSpacing = 0
 
