@@ -1,41 +1,30 @@
-8BitMMO
-Age of Conan: Unchained
+Age of Conan
 Albion Online
 Allods Online
 Anarchy Online
-Arcfall
 ArcheAge
 Aura Kingdom
 Black Desert Online
 Bless Unleashed
-BrawlQuest
 Champions Online
-Citadel Forged with Fire
-City of Ages
 Crowfall
 Dark Age of Camelot
 Dark and Light
-Darkfall Unholy Wars
+Darkfall
 DC Universe Online
 Dragon Nest
-Dragon Saga
 Dream Of Mirror Online
-Dungeon Fighter Online
 Dungeons & Dragons Online
 Elite Dangerous
-Elsword
 EVE Online
 EverQuest
 EverQuest II
-Fiesta Online
 FINAL FANTASY XI
 FINAL FANTASY XIV
-Florensia
 Gloria Victis
 Granado Espada
 Guild Wars
 Guild Wars 2
-Knight Online
 La Tale
 Leafling
 Lost Ark
@@ -44,11 +33,8 @@ Luna Online
 Mabinogi
 MapleStory
 Meridian 59
-Mortal Online
 Neverwinter
-NosTale
 Old School RuneScape
-Otherland
 Palia
 Pantheon: Rise of the Fallen
 Path of Exile
@@ -56,7 +42,6 @@ Phantasy Star Online 2
 Pirate101
 Project Gorgon
 Ragnarok Online
-Realm of the Mad God Exalt
 RIFT
 Runes of Magic
 RuneScape
@@ -64,23 +49,15 @@ Ryzom
 Secret World Legends
 Shadowbane
 Shroud of the Avatar: Forsaken Virtues
-Skyforge
 Star Citizen
 Star Trek Online
 STAR WARS The Old Republic
 Swords of Legends Online
-Tale of Toast
 TERA
 The Elder Scrolls Online
 The Lord of the Rings Online
-Tree of Savior
 Trove
-Vindictus
 WAKFU
-Warhammer: Chaos And Conquest
-Wild Terra Online
-Will To Live Online
-Wing of Misadventure
 Wizard101
 World of Warcraft
 Wurm
