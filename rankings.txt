@@ -1,229 +1,87 @@
-1. Albion Online
-2. Anarchy Online
-3. ATLAS
-4. Destiny 2
-5. Crowfall
-6. Black Desert Online
-7. Dark Age of Camelot
-8. ArcheAge
-9. Bless Unleashed
-10. Dark and Light
-11. ADONIS
-12. DRAGON BALL XENOVERSE 2
-13. Age of Conan: Unchained
-14. Allods Online
-15. Aura Kingdom
-16. Crossout
-17. DarkStory Online
-18. DC Universe Online
-19. CSC
-20. AdventureQuest 3D
-21. Astellia
-22. Aura Kingdom 2
-23. Boundless
-24. Bit Heroes
-25. Damascus
-26. Animal Jam
-27. Angeldust
-28. Champions Online
-29. Citadel Forged with Fire
-30. Aberoth
-31. DK Online
-32. 8BitMMO
-33. Dead Frontier 2
-34. Absolver
-35. Adventure Land The Code MMORPG
-36. Ancient Siberia
-37. Animyst
-38. Arcfall
-39. ArcheBlade
-40. Astellia Royal
-41. Atlantica Global
-42. Blue Isle Catalog
-43. BrawlQuest
-44. BROKE PROTOCOL Online City RPG
-45. CasinoRPG
-46. Champions of Regnum
-47. City of Ages
-48. Closers
-49. Continent of the Ninth Seal
-50. Crusaders of Light
-51. Crush Depth U-Boat Simulator
-52. Crush Online
-53. Cubic Castles
-54. Darkfall Unholy Wars
-55. Darkwind: War on Wheels
-56. Dead Maze
-57. Destiny of Ancient Kingdoms
-58. Digimon Masters Online
-59. Elsword
-60. Dragon Saga
-61. EVE Online
-62. EverQuest
-63. Dragon Nest
-64. Elite Dangerous
-65. Florensia
-66. Dungeon Fighter Online
-67. Kingdom Wars
-68. Fishing Planet
-69. Dungeons & Dragons Online
-70. Eternal Magic
-71. Dragons and Titans
-72. Dream Of Mirror Online
-73. Eldevin
-74. ELIOS VR
-75. EverQuest II
-76. Evolution
-77. Exocraft
-78. FINAL FANTASY XIV Online
-79. Factions: Origins of Malu
-80. Fantasy Tales Online
-81. Fiesta Online NA
-82. FINAL FANTASY XI
-83. Gangs of Space
-84. Gloria Victis
-85. Gran Skrea Online
-86. Granado Espada
-87. Guild Wars
-88. Hashiriya Drifter
-89. Helmet Heroes
-90. Hero Plus
-91. Illyriad
-92. Inferna
-93. Initial Drift Online
-94. Islet Online
-95. Kaion Tale
-96. Kakele Online
-97. Key To Heaven
-98. Kingdom Under Fire 2
-99. Kingdoms In Chaos
-100. Kingdoms Of Marazia Classic
-101. Knight Online
-102. Kritika REBOOT
-103. La Tale - Evolved
-104. Last Oasis
-105. Leafling
-106. League of Angels-Heaven's Fury
-107. Legend of Ares
-108. Legends of Aria
-109. Legends of IdleOn
-110. Life is Feudal
-111. Lords Mobile
-112. Lost Ark
-113. Lucent Heart
-114. Luna Online: Reborn
-115. M4 Tank Brigade
-116. Mabinogi
-117. Mad Pack
-118. MapleStory
-119. Margonem
-120. Meridian 59
-121. Metal Reaper Online
-122. Metin2
-123. Mighty Party
-124. Minimon
-125. Mortal Online
-126. MU Legend
-127. My Lands Black Gem Hunting
-128. Naval Action
-129. Neverwinter
-130. NosTale
-131. Old School RuneScape
-132. Onigiri
-133. Orake Classic
-134. OrbusVR Reborn
-135. Otherland MMO
-136. Palia
-137. Pandum online
-138. Pantheon: Rise of the Fallen
-139. Panzar
-140. Path of Exile
-141. Perpetuum
-142. Phantasy Star Online 2
-143. Phoenix Dynasty 2
-144. Pirate101
-145. Pixel Worlds
-146. POWER
-147. Project Genom
-148. Project Gorgon
-149. Ragnarok Online
-150. Ragnarok Online 2
-151. Realm of the Mad God Exalt
-152. Rebirth Online
-153. Red Stone Online
-154. Reign of Darkness
-155. Requiem: Rise of the Reaver
-156. Revelation Online
-157. Riders of Icarus
-158. RIFT
-159. Rise: The Vieneo Province
-160. Rogalia
-161. Royal Crown
-162. Royal Revolt II
-163. RPG MO
-164. Runes of Magic
-165. RuneScape
-166. Ryzom
-167. School of Dragons
-168. Scions of Fate
-169. Secret World Legends
-170. Shadow Arena
-171. Shadowbane
-172. Shakes and Fidget
-173. Shop Heroes
-174. Shroud of the Avatar: Forsaken Virtues
-175. Sky Clash Lords of Clans 3D
-176. Skyforge
-177. Slay Together
-178. Sokpop
-179. Soulworker
-180. Sphere 3: Rage of the Devastator
-181. Spiral Knights
-182. Star Citizen
-183. Star Conflict
-184. Star Trek Online
-185. STAR WARS The Old Republic
-186. StarBreak
-187. Stash
-188. Stay Out
-189. stein.world
-190. Stronghold Kingdoms
-191. Super Mecha Champions
-192. Survival Africa
-193. Swords of Legends Online
-194. Tale of Toast
-195. TERA
-196. The Black Death
-197. The Elder Scrolls Online
-198. The Exiled
-199. The Lord of the Rings Online
-200. The Repopulation
-201. THE SKIES: REBORN
-202. The Yellow King
-203. Therian Saga
-204. Time of Dragons
-205. Tree of Savior
-206. Trove
-207. TwelveSky 2 Classic
-208. Twin Saga
-209. Ultimo Reino 2
-210. Underlight
-211. Valnir Rok Survival RPG
-212. Villagers and Heroes
-213. Vindictus
-214. VRChat
-215. WAKFU
-216. War Robots
-217. Warhammer: Chaos And Conquest
-218. Warspear Online
-219. Wartune Reborn
-220. Wild Terra 2: New Lands
-221. Wild Terra Online
-222. Will To Live Online
-223. Wing of Misadventure
-224. Wizard101
-225. World of Warcraft
-226. Wurm Online
-227. Wurm Unlimited
-228. Wyvern
-229. Zezenia Online
+1. 8BitMMO
+2. Age of Conan: Unchained
+3. Albion Online
+4. Allods Online
+5. Anarchy Online
+6. Arcfall
+7. ArcheAge
+8. Aura Kingdom
+9. Black Desert Online
+10. Bless Unleashed
+11. BrawlQuest
+12. Champions Online
+13. Citadel Forged with Fire
+14. City of Ages
+15. Crowfall
+16. Dark Age of Camelot
+17. Dark and Light
+18. Darkfall Unholy Wars
+19. DC Universe Online
+20. Dragon Nest
+21. Dragon Saga
+22. Dream Of Mirror Online
+23. Dungeon Fighter Online
+24. Dungeons & Dragons Online
+25. Elite Dangerous
+26. Elsword
+27. EVE Online
+28. EverQuest
+29. EverQuest II
+30. Fiesta Online
+31. FINAL FANTASY XI
+32. FINAL FANTASY XIV
+33. Florensia
+34. Gloria Victis
+35. Granado Espada
+36. Guild Wars
+37. Guild Wars 2
+38. Istaria
+39. Knight Online
+40. La Tale
+41. Leafling
+42. Lost Ark
+43. Lucent Heart
+44. Luna Online
+45. Mabinogi
+46. MapleStory
+47. Meridian 59
+48. Mortal Online
+49. Neverwinter
+50. NosTale
+51. Old School RuneScape
+52. Otherland
+53. Palia
+54. Pantheon: Rise of the Fallen
+55. Path of Exile
+56. Phantasy Star Online 2
+57. Pirate101
+58. Project Gorgon
+59. Ragnarok Online
+60. Realm of the Mad God Exalt
+61. RIFT
+62. Runes of Magic
+63. RuneScape
+64. Ryzom
+65. Secret World Legends
+66. Shadowbane
+67. Shroud of the Avatar: Forsaken Virtues
+68. Skyforge
+69. Star Citizen
+70. Star Trek Online
+71. STAR WARS The Old Republic
+72. Swords of Legends Online
+73. Tale of Toast
+74. TERA
+75. The Elder Scrolls Online
+76. The Lord of the Rings Online
+77. Tree of Savior
+78. Trove
+79. Vindictus
+80. WAKFU
+81. Warhammer: Chaos And Conquest
+82. Wild Terra Online
+83. Will To Live Online
+84. Wing of Misadventure
+85. Wizard101
+86. World of Warcraft
+87. Wurm

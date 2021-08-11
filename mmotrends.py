@@ -18,6 +18,9 @@ pytrends = TrendReq(hl='en-US', tz=360)
 # See: https://github.com/pat310/google-trends-api/wiki/Google-Trends-Categories
 mmocat = 935
 
+# maximum games in one request
+max_size = 5
+
 # Time in seconds to wait before asking Google Trends for something.
 # Otherwise, we run out of quota.
 spacingDuration = 60
@@ -28,8 +31,12 @@ lastCallTime = 0
 timeframe = 'today 3-m'
 
 # MMOs to compare written to mmolist
+mmolist = {}
+mmolist_names = []
 with open(namefile, 'r') as f:
-    mmolist = f.read().split('\n')
+    for name in f.read().split('\n'):
+        mmolist[name] = { 'lt': [], 'gt': [] }
+        mmolist_names.append(name)
 
 # hack to replace standard comparison function with one I define
 def cmp_to_key(mycmp):
@@ -101,14 +108,56 @@ def compareInterestOverTime(gamea, gameb):
         sleep(requestSpacing)
         return compareInterestOverTime(gamea, gameb)
 
-def sortGames():
+def old_sort_games():
     'Sort the game list by relative interest'
     return sorted(mmolist, key=cmp_to_key(compareInterestOverTime))
+
+def get_chunks():
+    first = 0
+    last = len(mmolist)
+
+    while first < last:
+        chunk = first + max_size
+        if chunk > last: chunk = last
+        yield (first, chunk)
+        first = first + max_size - 1
+
+def get_relative_values(chunk_list):
+    values = []
+    for game in chunk_list:
+        values.append(len(game))
+    return values
+
+def threaded_compare(a,b):
+    if b in mmolist[a]['lt']: return -1
+    if b in mmolist[a]['gt']: return 1
+    for c in mmolist[a]['lt']:
+        rc = threaded_compare(c,b)
+        if rc < 0: return rc
+    for c in mmolist[a]['gt']:
+        rc = threaded_compare(c,b)
+        if rc > 0: return rc
+    return 0
+    
+def new_sort_games():
+    for (first, last) in get_chunks():
+        chunk_list = mmolist_names[first:last]
+        chunk_values = get_relative_values(chunk_list)
+        print (chunk_values)
+        for i in range(len(chunk_list)):
+            for j in range(len(chunk_list)):
+                if i != j:
+                    if chunk_values[i] > chunk_values[j]:
+                        mmolist[chunk_list[i]]['gt'].append(chunk_list[j])
+                    else:
+                        mmolist[chunk_list[i]]['lt'].append(chunk_list[j])
+    
+    return sorted(mmolist_names, key=cmp_to_key(threaded_compare))
 
 def rankAndWrite():
     'call sortGames to sort the games, then write the results to a file'
     # This could take awhile...
-    l = sortGames()
+    l = new_sort_games()
     with open(rankfile, 'w') as f:
         for game in l:
             print('{}. {}'.format(l.index(game)+1, game), file=f)
