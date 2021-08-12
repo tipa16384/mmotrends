@@ -21,7 +21,7 @@ mmocat = 935
 # Time in seconds to wait before asking Google Trends for something.
 # Otherwise, we run out of quota.
 spacingDuration = 60
-requestSpacing = 2
+requestSpacing = 5
 lastCallTime = 0
 
 # timeframe -- last three months
@@ -85,7 +85,7 @@ def compareInterestOverTime(gamea, gameb):
             interval = requestSpacing - waittime + 1
             print ('Games={}, {} -- Sleeping for {} seconds'.format(gamea, gameb, interval))
             sleep(interval)
-            if False or (random() > 0.95):
+            if False and (random() > 0.95):
                 print ('Dropping the sleep and taking our chances')
                 requestSpacing = 0
 
@@ -101,9 +101,12 @@ def compareInterestOverTime(gamea, gameb):
         sleep(requestSpacing)
         return compareInterestOverTime(gamea, gameb)
 
+def lengthSort(gamea, gameb):
+    return len(gameb) - len(gamea)
+
 def sortGames():
     'Sort the game list by relative interest'
-    return sorted(mmolist, key=cmp_to_key(compareInterestOverTime))
+    return sorted(mmolist, key=cmp_to_key(lengthSort))
 
 def rankAndWrite():
     'call sortGames to sort the games, then write the results to a file'
