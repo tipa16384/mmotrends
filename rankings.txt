@@ -1,63 +1,63 @@
-1. Shroud of the Avatar: Forsaken Virtues
-2. Pantheon: Rise of the Fallen
-3. The Lord of the Rings Online
-4. STAR WARS The Old Republic
-5. Dungeons & Dragons Online
-6. Swords of Legends Online
-7. The Elder Scrolls Online
-8. Dream Of Mirror Online
-9. Phantasy Star Online 2
-10. Old School RuneScape
-11. Secret World Legends
-12. Black Desert Online
-13. Dark Age of Camelot
-14. DC Universe Online
-15. FINAL FANTASY XIV
-16. World of Warcraft
-17. Champions Online
-18. FINAL FANTASY XI
-19. Star Trek Online
-20. Bless Unleashed
-21. Elite Dangerous
-22. Ragnarok Online
-23. Anarchy Online
-24. Dark and Light
-25. Granado Espada
-26. Project Gorgon
-27. Runes of Magic
-28. Albion Online
-29. Allods Online
-30. Gloria Victis
-31. Path of Exile
-32. Age of Conan
-33. Aura Kingdom
-34. EverQuest II
-35. Guild Wars 2
-36. Lucent Heart
+1. RuneScape
+2. MapleStory
+3. World of Warcraft
+4. Old School RuneScape
+5. Neverwinter
+6. Guild Wars
+7. Guild Wars 2
+8. Albion Online
+9. RIFT
+10. EverQuest
+11. Runes of Magic
+12. Age of Conan
+13. TERA
+14. Phantasy Star Online 2
+15. EVE Online
+16. Dragon Nest
+17. Anarchy Online
+18. FINAL FANTASY XIV
+19. Lost Ark
+20. Ragnarok Online
+21. Path of Exile
+22. The Lord of the Rings Online
+23. STAR WARS The Old Republic
+24. Wizard101
+25. Crowfall
+26. Black Desert Online
+27. WAKFU
+28. ArcheAge
+29. Trove
+30. Bless Unleashed
+31. Dark Age of Camelot
+32. Darkfall
+33. Elite Dangerous
+34. Mabinogi
+35. Palia
+36. Dark and Light
 37. Star Citizen
-38. Dragon Nest
-39. Luna Online
-40. Meridian 59
-41. Neverwinter
-42. EVE Online
-43. Guild Wars
-44. MapleStory
-45. Shadowbane
-46. EverQuest
-47. Pirate101
-48. RuneScape
-49. Wizard101
-50. ArcheAge
-51. Crowfall
-52. Darkfall
-53. Leafling
-54. Lost Ark
-55. Mabinogi
-56. La Tale
-57. Palia
-58. Ryzom
-59. Trove
-60. WAKFU
-61. RIFT
-62. TERA
-63. Wurm
+38. Swords of Legends Online
+39. FINAL FANTASY XI
+40. The Elder Scrolls Online
+41. Shadowbane
+42. Gloria Victis
+43. Star Trek Online
+44. Aura Kingdom
+45. Pirate101
+46. Secret World Legends
+47. Luna Online
+48. Allods Online
+49. Meridian 59
+50. DC Universe Online
+51. Ryzom
+52. Dream Of Mirror Online
+53. Champions Online
+54. Granado Espada
+55. EverQuest II
+56. Dungeons & Dragons Online
+57. Wurm
+58. Project Gorgon
+59. La Tale
+60. Leafling
+61. Lucent Heart
+62. Pantheon: Rise of the Fallen
+63. Shroud of the Avatar: Forsaken Virtues
