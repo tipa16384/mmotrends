@@ -44,7 +44,7 @@ def gaugeInterest(gamedata):
     sum = 0
     for i in range(numrows):
         sum = sum + gamedata[i]
-    return sum / numrows
+    return sum
 
 def gimme_some_chunks(list):
     'generator to yield four entry chunks from a list'
@@ -139,21 +139,24 @@ def rankAndWrite():
 
 def build_kwds():
     'Uses the Suggestions API to try and regularize the game names'
+    newmmolist = []
     for g in mmolist:
-        sleep(requestSpacing)
+        sleep(0.5)
         sugs = pytrends.suggestions(g)
         mmokwds[g] = { 'keyword': g, 'title': g, 'type': 'Search term' }
         for sug in sugs:
             # 2010 video game seems to be a category for just FFXIV
-            if sug['type'] == '2010 video game' or sug['type'] == 'Online game' or sug['type'] == 'Video game':
+            if (sug['title'] not in newmmolist) and \
+                    (sug['type'] == '2010 video game' or sug['type'] == 'Online game' or sug['type'] == 'Video game'):
                 mmokwds[g]['keyword'] = sug['mid']
                 mmokwds[g]['type'] = sug['type']
                 mmokwds[g]['title'] = sug['title']
+                newmmolist.append(sug['title'])
+                print(mmokwds[g])
                 break
-        print(mmokwds[g])
-
+    return newmmolist
 
 # if calling as main, immediately call rankAndWrite to do the ranking.
 if __name__ == "__main__":
-    build_kwds()
+    mmolist = build_kwds()
     rankAndWrite()

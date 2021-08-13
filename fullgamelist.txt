@@ -1,3 +1,4 @@
+Black Desert Online
 8BitMMO
 Aberoth
 Absolver
@@ -22,7 +23,6 @@ ATLAS
 Aura Kingdom
 Aura Kingdom 2
 Bit Heroes
-Black Desert Online
 Bless Unleashed
 Blue Isle Catalog
 Boundless
@@ -91,6 +91,7 @@ Illyriad
 Inferna
 Initial Drift Online
 Islet Online
+Istaria
 Kaion Tale
 Kakele Online
 Key To Heaven
@@ -100,14 +101,16 @@ Kingdoms In Chaos
 Kingdoms Of Marazia Classic
 Knight Online
 Kritika REBOOT
-La Tale - Evolved
+La Tale
 Last Oasis
 Leafling
-League of Angels-Heaven's Fury
+League of Angels
 Legend of Ares
 Legends of Aria
 Legends of IdleOn
 Life is Feudal
+Lineage
+Lineage II
 Lords Mobile
 Lost Ark
 Lucent Heart
@@ -195,7 +198,6 @@ Tale of Toast
 TERA
 The Black Death
 The Elder Scrolls Online
-The Exiled
 The Lord of the Rings Online
 The Repopulation
 THE SKIES: REBORN
@@ -206,6 +208,7 @@ Tree of Savior
 Trove
 TwelveSky 2 Classic
 Twin Saga
+Ultima Online
 Ultimo Reino 2
 Underlight
 Valnir Rok Survival RPG
